@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeriFind | Online Fact Checker </title>
+    <!-- IMP -->
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="phone.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <!-- <script src="scrpit.js"></script> -->
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline id="bgvid">
+        <source src="resco\bgvid.mp4">
+    </video>
+    <div id="homepage">
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo-edited.png" alt="">
+            </div>
+            <div id="title">VeriFind</div>
+
+            <ul>
+                <li class="item" style="order: 5;"><a href="#" class="active">Home</a></li>
+                <li class="item" style="order: 4;"><a href="#">Services</a></li>
+                <li class="item" style="order: 3;"><a href="#">About Us</a></li>
+                <li class="item" style="order: 2;"><a href="#">Contact Us</a></li>
+                <li class="item" style="order: 1;"><Button>Login</Button></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <h1 class="h-primary">Lorem.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa!</p>
+            <div id="utbar">
+            <div id="switchbtn">
+                <button class="btn" id="urlbtn" onclick="tab1();">
+                    URL
+                </button>
+                <button class="btn" id="textbtn" onclick="tab2();">
+                    TEXT
+                </button>
+            </div>
+            <form method="post" onSubmit="return validateForm()">
+            <div id="sbar">
+            <p id="order1">
+
+                <input type="text" placeholder="Enter url." id="enterlocation1">
+                <button class="btn" id="ordernow">CHECK</button>
+
+            </p>
+            <p id="order2">
+                <input type="text" placeholder="Enter the text." id="enterlocation2">
+                <button class="btn" id="ordernow">CHECK</button>
+            </p>
+            </div>
+        </form>
+            <!-- <div id="select" onclick="tab2();">
+                <input type="checkbox" id="switch" onclick="tab2();"/>
+                <label for="switch" id="slide" onclick="tab2();"></label>
+            </div> -->
+        </section>
+    </div>
+
+    <div class="services-container">
+        <div id="services">
+            <div class="box">
+                <center>
+                    <img src="smartphone.png" alt="" id="phone">
+                    <br>
+                    <span class="bold">Order From Any Device</span>
+                    <br>
+                    <span class="normal">Order food from your phone, laptop etc. with your comfort</span>
+                </center>
+            </div>
+            <div class="box">
+                <center>
+                    <img src="order.png" alt="">
+                    <br>
+                    <span class="bold">Order Instantly</span>
+                    <br>
+                    <span class="normal">Order instantly with minimum and easy steps.</span>
+                </center>
+            </div>
+            <div class="box">
+                <center>
+                    <img src="order-food.png" alt="">
+                    <br>
+                    <span class="bold">Live Order Tracking</span>
+                    <br>
+                    <span class="normal">Know where your order is at all times, from the restaurant to your
+                        doorstep</span>
+                </center>
+            </div>
+            <div class="box">
+                <center>
+                    <img src="food-delivery.png" alt="">
+                    <br>
+                    <span class="bold">Lightning-Fast Delivery</span>
+                    <br>
+                    <span class="normal">Experience superfast delivery for food delivered fresh & on time</span>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="contactus-container">
+        <h1 class="h-primary1">Contact Us</h1>
+        <form action="#" id="form">
+            <div class="form-class">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your name" id="name" name="name">
+            </div>
+            <div class="form-class">
+                <label for="name">Email:</label>
+                <input type="email" placeholder="Enter your Email id" id="name" name="name">
+            </div>
+            <div class="form-class">
+                <label for="name">Phone no:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your phone no">
+            </div>
+            <div class="form-class">
+                <label for="name">Message:</label>
+                <textarea name="mane" id="name" cols="20" rows="8" placeholder="Enter your message"></textarea>
+             </div>
+             <!-- <div id="submit">
+                <input type="submit" value="Submit">
+             </div> -->
+        </form>
+        <footer>
+            Copyright &copy www.esymeals.com All rights reserved!
+        </footer>
+    </div>   
+    <script src="/scrpit.js"></script> 
+</body>
+
+</html>
